@@ -1,0 +1,15 @@
+% \cite{ml:csd}
+Constraints programming is a technology that has been proven successful for solving many complex combinatorial decision or optimization problems, such as; scheduling, industrial design, aviation and banking, to name but a few examples \cite{ml:csd}.
+\\
+\\
+One of the most known problems addressed by Constraints programming is the Constraints Satisfaction Problem (CSP). Formally speaking a CSP is defined as a set of variables: $X_{1}, X_{2},...,X_{n}$, each variable has its own domain: $D_{1}, D_{2},...,D_{n}$ and there are some constraints on these variables: $C_{1}, C_{2},...,C_{m}$, each constraint $C_{i}$ consists of a subset of variables along with the allowable assignment values for each of these variables. A solution to a CSP is an assignment that assigns a value to each variable $X_{i}$ from its domain $D_{i}$, and this assignment must satisfy all the constraints specified to the problem instance.
+\\
+\\
+In this paper we address one of the known Constraints which is the All-different (alldiff) Constraint. A CSP with the alldiff Constraint has a set of rules that forbids the equality on a set of variables. In other words given a CSP problem with a set of variables $X_{1},...,X_{n}$  where for each variable there is a finite domain $D_{1},...,D_{m}$. Then:
+\begin{eqnarray*}
+\textrm{alldiff}(X_{1},...,X_{n}) = \{(v_{1},...,v_{n}) | v_{i} \in D_{i}, v_{i} \neq v_{j} \textrm{ for } i \neq j\}
+\end{eqnarray*}
+\\
+\\
+
+In order to solve a CSP with the alldiff constraint there are several solvers that can be applied. But before getting into this lets discuss the most naive approach by showing how to model the well known n-Queen CSP problem. The description of the problem is "given n queens and a chess board, place the queens on the board such that no two queens attack each other". The modeling for this problem can be as follows:
