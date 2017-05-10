@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.5.8)  9 MAY 2017 06:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.5.8)  10 MAY 2017 05:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -131,77 +131,309 @@ LaTeX Font Info:    Redeclaring math symbol \Omega on input line 372.
 ) (/usr/share/texlive/texmf-dist/tex/latex/base/makeidx.sty
 Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
 )
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 95.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count116
+))
+\Gin@req@height=\dimen125
+\Gin@req@width=\dimen126
+)
 (./ml-for-cs-design.aux)
 \openout1 = `ml-for-cs-design.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count117
+\scratchdimen=\dimen127
+\scratchbox=\box54
+\nofMPsegments=\count118
+\nofMParguments=\count119
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count120
+\MPscratchDim=\dimen128
+\MPnumerator=\count121
+\makeMPintoPDFobject=\count122
+\everyMPtoPDFconversion=\toks20
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 27.
+(Font)              <7> on input line 28.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 27.
- (./partials/abstract.tex)
-Overfull \hbox (15.29984pt too wide) in paragraph at lines 3--31
+(Font)              <5> on input line 28.
+
+(./partials/abstract.tex)
+Overfull \hbox (15.29984pt too wide) in paragraph at lines 3--32
 \OT1/cmr/bx/n/9 Keywords:\OT1/cmr/m/n/9 All Dif-fer-ent, Gen-er-al-ized Arc Con
 -sis-tency, Con-straints Solvers,
  []
 
 (./partials/introduction.tex
-Underfull \hbox (badness 10000) in paragraph at lines 2--9
+Underfull \hbox (badness 10000) in paragraph at lines 2--6
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 2--9
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--14
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--14
+)
+Underfull \hbox (badness 10000) in paragraph at lines 7--38
 
  []
 
 [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
-(./partials/background.tex) [2] (./ml-for-cs-design.aux) ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+(./partials/background.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--5
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--13
+
+ []
+
+[2])
+Underfull \hbox (badness 10000) in paragraph at lines 37--42
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--42
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--42
+
+ []
+
+(./partials/training.tex
+<images/constraint_nw.png, id=18, 905.3825pt x 579.16376pt>
+File: images/constraint_nw.png Graphic file (type png)
+
+<use images/constraint_nw.png>
+Package pdftex.def Info: images/constraint_nw.png used on input line 6.
+(pdftex.def)             Requested size: 347.12354pt x 222.04639pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--10
+
+ []
+
+[3]
+Underfull \vbox (badness 4647) has occurred while \output is active []
+
+ [4 <./images/constraint_nw.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--21
+
+ []
+
+<images/speedup.png, id=27, 524.96124pt x 341.275pt>
+File: images/speedup.png Graphic file (type png)
+ <use images/speedup.png>
+Package pdftex.def Info: images/speedup.png used on input line 27.
+(pdftex.def)             Requested size: 347.12354pt x 225.66919pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 33--45
+
+ []
+
+[5] [6 <./images/speedup.png>] (./partials/results.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--6
+
+ []
+
+[7
+
+] <images/results.png, id=38, 673.51625pt x 258.9675pt>
+File: images/results.png Graphic file (type png)
+
+<use images/results.png>
+Package pdftex.def Info: images/results.png used on input line 10.
+(pdftex.def)             Requested size: 347.12354pt x 133.4705pt.
+ <images/results2.png, id=39, 694.595pt x 172.645pt>
+File: images/results2.png Graphic file (type png)
+
+<use images/results2.png>
+Package pdftex.def Info: images/results2.png used on input line 18.
+(pdftex.def)             Requested size: 347.12354pt x 86.28276pt.
+) [8
+
+ <./images/results.png> <./images/results2.png>]
+(./partials/conclusion.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 1--55
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--55
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--55
+
+ []
+
+[9
+
+]
+Missing character: There is no â in font cmr9!
+Missing character: There is no € in font cmr9!
+Missing character: There is no ˜ in font cmr9!
+Missing character: There is no â in font cmr9!
+Missing character: There is no € in font cmr9!
+Missing character: There is no ™ in font cmr9!
+Missing character: There is no â in font cmr9!
+Missing character: There is no € in font cmr9!
+Missing character: There is no “ in font cmr9!
+ [10
+
+] (./ml-for-cs-design.aux) ) 
 Here is how much of TeX's memory you used:
- 662 strings out of 494953
- 7631 string characters out of 6180978
- 63934 words of memory out of 5000000
- 4002 multiletter control sequences out of 15000+600000
- 5624 words of font info for 21 fonts, out of 8000000 for 9000
+ 1951 strings out of 494953
+ 26981 string characters out of 6180978
+ 92540 words of memory out of 5000000
+ 5212 multiletter control sequences out of 15000+600000
+ 6278 words of font info for 23 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 29i,7n,21p,717b,183s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on ml-for-cs-design.pdf (2 pages, 106451 bytes).
+ 37i,7n,23p,1182b,228s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmtt9.pfb>
+Output written on ml-for-cs-design.pdf (10 pages, 238403 bytes).
 PDF statistics:
- 47 PDF objects out of 1000 (max. 8388607)
- 33 compressed objects within 1 object stream
+ 85 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

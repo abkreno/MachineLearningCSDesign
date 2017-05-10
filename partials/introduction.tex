@@ -2,14 +2,9 @@
 Constraints programming is a technology that has been proven successful for solving many complex combinatorial decision or optimization problems, such as; scheduling, industrial design, aviation and banking, to name but a few examples \cite{ml:csd}.
 \\
 \\
-One of the most known problems addressed by Constraints programming is the Constraints Satisfaction Problem (CSP). Formally speaking a CSP is defined as a set of variables: $X_{1}, X_{2},...,X_{n}$, each variable has its own domain: $D_{1}, D_{2},...,D_{n}$ and there are some constraints on these variables: $C_{1}, C_{2},...,C_{m}$, each constraint $C_{i}$ consists of a subset of variables along with the allowable assignment values for each of these variables. A solution to a CSP is an assignment that assigns a value to each variable $X_{i}$ from its domain $D_{i}$, and this assignment must satisfy all the constraints specified to the problem instance.
-\\
-\\
-In this paper we address one of the known Constraints which is the All-different (alldiff) Constraint. A CSP with the alldiff Constraint has a set of rules that forbids the equality on a set of variables. In other words given a CSP problem with a set of variables $X_{1},...,X_{n}$  where for each variable there is a finite domain $D_{1},...,D_{m}$. Then:
-\begin{eqnarray*}
-\textrm{alldiff}(X_{1},...,X_{n}) = \{(v_{1},...,v_{n}) | v_{i} \in D_{i}, v_{i} \neq v_{j} \textrm{ for } i \neq j\}
-\end{eqnarray*}
-\\
-\\
+One of the most known problems addressed by Constraints programming is the Constraints Satisfaction Problem (CSP). When designing a solver for a CSP and modeling a CSP problem, there are many design decisions that has to be made in order to reach a solver with good performance. These decisions can be such as; the level of consistency to use and what data structures shall be used to allow the solver to backtrack \cite{ml:csd}. Usually these design decisions are done manually by a human being and this increases the possibility for errors due to lack of experience or other factors. Also, once a decision has been made it's going to be static. In other words, even if a decision with a better performance can be applied to a given problem instance, it's not going to be easy to change that decision and so, the performance will not always be optimal \cite{ml:csd}.
 
-In order to solve a CSP with the alldiff constraint there are several solvers that can be applied. But before getting into this lets discuss the most naive approach by showing how to model the well known n-Queen CSP problem. The description of the problem is "given n queens and a chess board, place the queens on the board such that no two queens attack each other". The modeling for this problem can be as follows:
+In this paper we discuss a solution to this problem by looking from a Machine Learning perspective. The idea here is that, we train a Classifier that given a problem class or a problem instance shall be able to decide automatically which design decision should be made to solve the problem instance. With this approach the problem of depending on human choices is solved. In other words we no longer need to depend on manual decisions based on human experience, and even after the design decision has been taken for a problem instance it's no longer going to be static and will be changed optimally for a given problem class.
+\\
+\\
+We are going to describe how the Classifier will work starting from modeling the problem as a training instance to the classifier, passing by how the training will actually happen and finally how to use the classifier and what was the reached results.

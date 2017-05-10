@@ -6,6 +6,7 @@
 \documentclass{llncs}
 %
 \usepackage{makeidx}  % allows for indexgeneration
+\usepackage{graphicx}
 %
 \begin{document}
 %
@@ -38,6 +39,21 @@
 %
 \input{partials/background.tex}
 %
+\section{Training the classifier}
+%
+\input{partials/training.tex}
+\clearpage
+%
+\section{Results}
+%
+\input{partials/results.tex}
+%
+\clearpage
+\section{Conclusion}
+%
+\input{partials/conclusion.tex}
+\clearpage
+%
 % ---- Bibliography ----
 %
 \begin{thebibliography}{5}
@@ -52,6 +68,11 @@ CoRR, 1008.4326 (2010)
 Gent, Ian P. and Miguel, Ian and Nightingale, Peter:
 Generalised Arc Consistency for the AllDifferent Constraint: An Empirical Survey,
 Artif. Intell. , 1973--2000, (2008)
+
+\bibitem {f:feat}
+Watts, D., Strogatz, S.:
+Collective dynamics of ‘small-world’ networks. Nature 393,
+440–442 (1998)
 
 \end{thebibliography}
 % \clearpage

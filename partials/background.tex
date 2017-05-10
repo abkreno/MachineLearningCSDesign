@@ -1,0 +1,44 @@
+Formally speaking a CSP is defined as a set of variables: $X_{1}, X_{2},...,X_{n}$, each variable has its own domain: $D_{1}, D_{2},...,D_{n}$ and there are some constraints on these variables: $C_{1}, C_{2},...,C_{m}$, each constraint $C_{i}$ consists of a subset of variables along with the allowable assignment values for each of these variables. A solution to a CSP is an assignment that assigns a value to each variable $X_{i}$ from its domain $D_{i}$, and this assignment must satisfy all the constraints specified to the problem instance.
+\\
+\\
+In this paper we address solving one of the known Constraints which is the All-different (alldiff) Constraint. A CSP with the alldiff Constraint has a set of rules that forbids the equality on a set of variables. In other words given a CSP problem with a set of variables $X_{1},...,X_{n}$  where for each variable there is a finite domain $D_{1},...,D_{m}$. Then:
+\begin{eqnarray*}
+  \textrm{alldiff}(X_{1},...,X_{n}) = \{(v_{1},...,v_{n}) | v_{i} \in D_{i}, v_{i} \neq v_{j} \textrm{ for } i \neq j\}
+\end{eqnarray*}
+\\
+\\
+
+In order to solve a CSP with the alldiff constraint there are several solvers that can be applied. But before getting into this lets first discuss the most naive approach. To illustrate how it works here is an example:
+\\\\say we have 3 variables:
+\begin{eqnarray*}
+  X_{1}, X_{2}, X_{3}
+\end{eqnarray*}
+and we have the constraint alldiff on these variables:
+\begin{eqnarray*}
+  \textrm{alldiff}(X_{1}, X_{2}, X_{3})
+\end{eqnarray*}
+the naive approach will decompose the alldiff constraint into the following set of constraints:
+\begin{eqnarray*}
+  X_{1} \neq X_{2}\\
+  X_{1} \neq X_{3}\\
+  X_{2} \neq X_{3}
+\end{eqnarray*}
+Finding a solution to the model in the previous example can be done by systematically enumerating all the possible values combinations. Then, for each combination we check whether it satisfies all the constraints or not, if it does then we have found a solution, otherwise the search continue. Unfortunately, the naive approach is too slow, the enumeration of all the possible combinations takes a lot of time. In fact it leads to a search space of exponential size. Thats why one of the main problems is that it's not very efficient, for example, consider the case where we have:
+\begin{eqnarray*}
+  X_{1}, X_{2}, X_{3}, X_{4}
+\end{eqnarray*}
+and the domain of these 3 variables is the same:
+\begin{eqnarray*}
+  D_{1} = D_{2} = D_{3} = D_{4} = \{1, 2, 3\}
+\end{eqnarray*}
+and we have the constraint:
+\begin{eqnarray*}
+  \textrm{alldiff}(X_{1}, X_{2}, X_{3}, X_{4})
+\end{eqnarray*}
+It's easy to see that there will never be an assignment to the variables from these domains that will satisfy the alldiff constraint, However, this knowledge cannot be derived when just considering the decomposition into pairs of variables \cite{ml:csd}. So this approach is non-practical in this case and specially when the number of constraints is large.
+\\\\
+There are several other approaches to solve the alldiff constraints. One of them is the Generalized Arc Consistency (GAC) approach. The GAC is a more sophisticated approach that mainly tries to simplify the CSP instance in a way that will make it easier to solve. The general idea about the GAC is that it tries to optimize the domains by doing more propagation. Refer to \cite{gac:alldiff} for more details about the GAC alldiff algorithm.
+\\\\
+Algorithm Selection is a meta-algorithmic technique to dynamically choose an algorithm from a set that will solve a problem instance in the best performance. This is based on the idea that, when using a static algorithm it can perform well on a subset of problem instances, But there will also be another subset on which the algorithm will perform poorly, while other algorithms can perform better on that subset. So what algorithm selection aims to do is to make the best algorithm choice every time a problem instance is applied.
+\\\\
+In Machine Learning Algorithm Selection is known as \textit{meta-learning}, what we do in this paper is discuss the training of a classifier that for a given problem instance aims to decide the most efficient algorithm to solve the instance. By training the classifier on a prepared set of problem instances and then using the trained meta-classifier for classification.  
